@@ -3,13 +3,14 @@ public class Main {
 
         int balanc = 100500;
         int payment = 3000;
-        int bonus ;
-        if (payment < 1000)
-            bonus=0;
-        else
+        int bonus;
+        if (payment < 1000) {
+            bonus = 0;
+        } else {
             bonus = payment / 100;
-        int itog = balanc + payment + bonus;
-        System.out.println(itog);
-        System.out.println(bonus);
+            int itog = balanc + payment + bonus;
+            System.out.println(itog);
+            System.out.println(bonus);
+        }
     }
 }
